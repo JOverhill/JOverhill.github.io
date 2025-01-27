@@ -10,7 +10,8 @@ const About = () => {
         <Navbar />
         <VideoBG />
         <div className='center-container'>
-        <div className="card-container-grid">
+        
+        <div className="card-container-about">
             <Infocard title="IT Experience" content="I have gained experience in software development with various programming languages through
             school and hobbies. I taught myself website building because I became interested in React. From school I have learned the basics of DevOps, testing,
             databases etc. I’ve also dabbled with APIs for a bit and understand the basics of REST APIs." />
@@ -18,6 +19,7 @@ const About = () => {
             <Infocard title="Additional experience" content="I also have a bachelor of business administration and nrealy 5 years of job experience from Payroll/HR field, working
             with various stakeholders, in teams and also independently." />
         </div>
+        
         </div>
     </div>
   )
