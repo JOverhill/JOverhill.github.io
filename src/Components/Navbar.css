@@ -16,6 +16,12 @@
     color: #fff;
     font-weight: 700;
 }
+.logo img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto; /* Keeps the aspect ratio intact */
+    object-fit: contain; /* Ensures the image fits well within the dimensions */
+    border-radius: 50px;
+}
 
 .navbar a {
     position: relative;
@@ -38,4 +44,23 @@
 
 .navbar a:hover::before {
     width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack logo and navbar vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 20px 5%; /* Reduce padding for smaller screens */
+    }
+
+    .navbar {
+        margin-top: 10px; /* Add space between the logo and navbar */
+        gap: 10px; /* Reduce gap between links */
+        flex-wrap: wrap; /* Wrap links if they don't fit in one line */
+    }
+
+    .navbar a {
+        margin-left: 3; 
+    }
 }

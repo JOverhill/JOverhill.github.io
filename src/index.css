@@ -35,6 +35,7 @@ a {
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
+  margin-top: 8%;
   flex-grow: 1; /* Takes up remaining space */
 }
 .card-container-flex {
@@ -60,4 +61,14 @@ a {
   height: 10vh;
    
   
+}
+
+@media (max-width: 768px) {
+  .center-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin-top: 200px;
+    flex-grow: 1; /* Takes up remaining space */
+  }
 }
