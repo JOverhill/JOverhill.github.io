@@ -16,7 +16,7 @@ const About = () => {
             school and hobbies. I taught myself website building because I became interested in React. From school I have learned the basics of DevOps, testing,
             databases etc. I’ve also dabbled with APIs for a bit and understand the basics of REST APIs." />
             <Infocard title="Technologies I have used" content="HTML, CSS, Javascript, React, Java, Python, SQL, MongoDB." />
-            <Infocard title="Additional experience" content="I also have a bachelor of business administration and nrealy 5 years of job experience from Payroll/HR field, working
+            <Infocard title="Additional experience" content="I also have a bachelor of business administration and nearly 5 years of job experience from Payroll/HR field, working
             with various stakeholders, in teams and also independently." />
         </div>
         
