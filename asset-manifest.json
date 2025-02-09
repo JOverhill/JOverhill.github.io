@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e980e762.css",
+    "main.js": "/static/js/main.28e53570.js",
+    "static/media/bg.mp4": "/static/media/bg.d939ff3b3dd9ac4c8b8b.mp4",
+    "static/media/weatherapp.png": "/static/media/weatherapp.66e0f10fb6376e3663f0.png",
+    "static/media/Stigler1.png": "/static/media/Stigler1.08b69d762390d01d3404.png",
+    "static/media/Stigler2.png": "/static/media/Stigler2.30e172892d0c13acfb3b.png",
+    "static/media/miinantallaaja.png": "/static/media/miinantallaaja.5cfd1a2ef4a310824bf7.png",
+    "index.html": "/index.html",
+    "main.e980e762.css.map": "/static/css/main.e980e762.css.map",
+    "main.28e53570.js.map": "/static/js/main.28e53570.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e980e762.css",
+    "static/js/main.28e53570.js"
+  ]
+}
