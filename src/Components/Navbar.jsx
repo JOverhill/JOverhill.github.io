@@ -13,6 +13,7 @@ const Navbar = () => {
             <Link to="/">Home</Link>
             <Link to="/about">About me</Link>
             <Link to="/portfolio">Portfolio</Link>
+            <Link to="/maplestory-korean-helper">Maplestory Korean Helper</Link>
         </nav>
     </header>
   )

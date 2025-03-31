@@ -1,9 +1,9 @@
 import React from 'react'
 import { Select, Button, FormControl, InputLabel, MenuItem,
-        Box, TextField, Typography, IconButton, Snackbar } from '@mui/material'
+        Box, TextField, Typography, IconButton, Snackbar, Container } from '@mui/material'
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import {classCategories, bosses, difficulties} from './data.jsx'
-
+import Navbar from '../Components/Navbar'
 const Maplestory = () => {
     
     const [selectedClass, setSelectedClass] = React.useState('');
@@ -60,7 +60,10 @@ const Maplestory = () => {
 
     return (
         <>
+        <Navbar />
+        <Container sx={{ paddingTop: '15%' }}>
             <Typography variant="h4" gutterBottom>Maplestory search helper</Typography>
+            <Typography variant="h7" gutterBottom>A simple tool for assisting with videogame content searching in Maplestory</Typography>
             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3, maxWidth: '500px' }}>
                 <Box>
                     <Typography variant="h6" gutterBottom>Class</Typography>
@@ -178,7 +181,7 @@ const Maplestory = () => {
             >
                 Youtube search 
             </Button>
-            
+        </Container>
         </>
     )
 }
